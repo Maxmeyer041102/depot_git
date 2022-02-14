@@ -5,11 +5,6 @@ INSTALLER GIT :
 
 	2° Dans le terminal écrivez : "sudo apt install git"
 
-
-
-
-
-
 ##git
 
 CREER UN DEPOT : 
@@ -27,33 +22,30 @@ CREER UN DEPOT :
 	8° Faîtes "ls" normalement readme.md doit y être si oui nous pouvons continuer 
 
 	9° Tapez git init
+	
+	10° Git add .
 
+	11° Git commit -am "[nom que vous voulez] (a pour add et m pour message) 
 
-GIT INIT 
-GIT ADD  . (le point va rajouter tout les fichiers poissible) 
-GIT COMMIT  -[am] '' " a pour add             m pour message 
-GIT PULL  pour du github au local 
-GIT PUSH  pour local au github   
+	12° git branch -M main
 
+	13°git remote add origin
 
+	14°git push -u origin main 
 
 
 ##ssh 
-	Dans ubuntu 
-
-
+	Dans ubuntu tapez ssh-keygen -t rsa -b 4096 -C "votre adresse mail" (pour générer la clé ssh)  
 	
+	copiez la clé ssh (toute la clé)
 
+	Allez dans les setting de votre profil 
 
+	section :" SSH and GPG keys" Donnez un titre et collez toute votre clé dedans 
 
 #utilisation 
 
-
-
-
-
-
-
+	prendre la clé ssh du repositorie 
 
 ##cloner 
 
@@ -73,24 +65,3 @@ GIT PUSH  pour local au github
 
 
 
-INSTALLER GIT :
-
-	1° Ouvrir wsl sur windows
-
-	2° Dans le terminal écrivez : "sudo apt install git"
-
-CREER UN DEPOT : 
-	
-	3° sur https://github.com cliquer sur "NEW" (le bouton en vert) 
-	
-	4° Donnez un nom au reporsitory et cliquez sur creer. 
-
-	5° Ouvrir dans VisualStudioCode notre dossier préalablement créer dans un endroit quelconque qui a pour nom le même que notre desipory GitHub 
-
-	6° Dans VisualStudioCode créer un fichier readme.md et écrivez n'importe quoi dedans. 
-	
-	7° Laisser de côté visualStudio pour le moment; Aller sur wsl et taper : cd mnt/C/users/"votre nom"/"votre emplacement de dossier"/"votre dossier"
-
-	8° Faîtes "ls" normalement readme.md doit y être si oui nous pouvons continuer 
-
-	9° Tapez git init  
