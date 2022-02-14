@@ -45,11 +45,23 @@ CREER UN DEPOT :
 
 #utilisation 
 
-	prendre la clé ssh du repositorie 
+	créer un fichier dans lequel on va creer notre code 
+	
+	touch "nom de votre fichier" 
+
+	nano "et écrivez ce que vous voulez" 
+
+	Tapez Git status : cela va afficher tous ce qu'il y'a de différent par rapport a votre dossier initial 
+
+	Git add "le nom que vous voulez" pour ajouter le dossier au git 
+
+	git commit -am "ce que vous voulez encore une fois" cela va enregistrer en local ce que vous avez fait 
+
+	Git push pour mettre tout ce que vous avez fait dans votre reporsitory  
 
 ##cloner 
 
-
+	pour cloner une branche vous pouvez faire :Git branch clone 
 
 
 
