@@ -1,0 +1,21 @@
+INSTALLER GIT :
+
+	1° Ouvrir wsl sur windows
+
+	2° Dans le terminal écrivez : "sudo apt install git"
+
+CREER UN DEPOT : 
+	
+	3° sur https://github.com cliquer sur "NEW" (le bouton en vert) 
+	
+	4° Donnez un nom au reporsitory et cliquez sur creer. 
+
+	5° Ouvrir dans VisualStudioCode notre dossier préalablement créer dans un endroit quelconque qui a pour nom le même que notre desipory GitHub 
+
+	6° Dans VisualStudioCode créer un fichier readme.md et écrivez n'importe quoi dedans. 
+	
+	7° Laisser de côté visualStudio pour le moment; Aller sur wsl et taper : cd mnt/C/users/"votre nom"/"votre emplacement de dossier"/"votre dossier"
+
+	8° Faîtes "ls" normalement readme.md doit y être si oui nous pouvons continuer 
+
+	9° Tapez git init  
